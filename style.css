@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Playfair Display", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+/* navbar styling */
+.nav-bar{
+    border: 2px solid transparent;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 40px;
+    color: #52182d;
+    font-weight:bold;
+    font-size: 4vmin;
+}
+
+ul{
+    padding-right: 40px;
+    display: flex;
+}
+li{
+    margin: 20px;
+    font-size: 2vmin;
+}
+
+li a{
+    color: #52182d;
+}
+
+.ctn{
+    padding-top: 17px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    background-color:transparent;
+    color:#52182d;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+}
+.ctn:hover{
+    color:blue;
+}
+
+.content-header{
+    position: absolute;
+    padding-top: 400px;
+    margin-left: 40px;
+}
+
+.content-header .ctn1{
+    padding-top: 30px;
+}
+.shop{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    color: #d9cea0;
+    cursor: pointer;
+}
+
+.shop:hover{
+    color: azure;
+}
+
+.picture-content{
+    position: absolute;
+    padding-top:150px ;
+    margin-left: 800px;
+}
+
+.picture-content img{
+    width: 500px;
+    height: 500px;
+}
+
+.summers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.summer-collection h5{
+    margin-left: 55px;
+}
+
+.summer-collection h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.T-shirt-collection{
+    width: 100%;
+    display: flex;
+}
+
+.tshirt-pictures{
+    border: 2px solid black;
+    width: 250px;
+}
+.tshirt-pictures img{
+    width: 250px;
+}
+@media (min-width:200) and (max-width:400){
+    .nav-bars{
+        background-color: aqua;
+    }
+}
